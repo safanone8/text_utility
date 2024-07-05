@@ -1,0 +1,38 @@
+Nodejs 
+	- Node.js is an open-source, cross-platform JavaScript runtime environment that executes JavaScript code outside of a web browser. It allows developers to use JavaScript on the server-side to build fast and scalable network applications
+
+Reactjs 
+	- React is a JavaScript library for building user interfaces. It was developed and is maintained by Facebook. React allows developers to create reusable UI components, manage the state of their application, and efficiently render changes to the user interface. React uses a virtual DOM (Document Object Model) to efficiently update the UI when the state changes, instead of directly updating the DOM, which can be slow and resource-intensive. This makes React particularly well-suited for building complex, dynamic user interfaces. React can be used with a variety of programming languages and can be integrated with other libraries and frameworks, making it a popular choice for building modern web applications.
+
+Components 
+	-In React, components are the building blocks of a user interface. They are independent, reusable pieces of code that represent a part of a UI. Components can receive inputs, called "props", and render dynamic outputs based on these props. Components can also manage their own internal state and update their UI when state changes.
+ 	- types 
+		1. Class components
+			- Class components are ES6 classes that extend the React.Component base class and implement a render method, which returns a tree of React elements. Class components can have a state and lifecycle methods, which provide greater control over the behavior of the component.
+
+		2. Functional components 
+			- Functional components are simple JavaScript functions that take props as input and return a tree of React elements. They are used when the component only needs to render based on its props and do not have a state or lifecycle methods.
+
+		- diffrences 
+			Definition: 
+				- Class components are defined as ES6 classes that extend the React.Component class and implement a render method, while functional components are simple JavaScript functions that accept props as input and return a tree of React elements.
+
+			State management: 
+				- Class components have an internal state object that can be updated and trigger re-renders, while functional components do not have a state and rely solely on their props for data.
+
+			Lifecycle methods: 
+				- Class components have access to lifecycle methods, such as componentDidMount, shouldComponentUpdate, and componentWillUnmount, which allow you to perform actions at specific points in the lifecycle of the component. These methods are not available in functional components.
+
+			Performance: 
+				- In general, functional components are faster than class components because they have a lighter implementation. However, for complex components with state and lifecycle methods, class components may be a better choice.
+
+state 
+	- state of an perticuler event 
+	- it is managed with the components
+
+prop 
+	- it is passed down from the components 
+
+Hooks
+	- Hooks are a new feature in React that allow you to add state and other React features to functional components
+ 

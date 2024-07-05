@@ -1,0 +1,87 @@
+code with harry 
+
+video 3
+
+- callback functions 
+- promise functions
+
+video 4
+
+- JSX
+   - JSX(JavaScript Extension), is a React extension which allows writing JavaScript code that looks like HTML. In other words, JSX is an HTML-like syntax used by React that extends ECMAScript so that HTML-like syntax can co-exist with JavaScript/React code.
+
+- function base component 
+  - ex. function AAA() {
+   return ( write html here )
+  };
+  - note 
+    -  use className instead of class in html
+    -  use htmlFor instead of for in html
+
+
+--------------------- main app.js code for react--------------------------
+ 
+  <>
+     <h1>
+      hii i am safan
+     </h1>
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} 
+        className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React with safan
+        </a>
+      </header>
+    </div>
+    </>
+
+
+- video 5
+  - adding bootstrap into react
+
+- video 6
+  - componentfa
+  - props
+    - setting types of input in props
+    - setting default inputs in props 
+    - .isRequred method in props
+
+- video 7
+  - hooks
+  - event listner
+  - states
+  - project completed to change the input into uppercase
+  
+- video 8
+  - word count and character count
+  - priview added
+  - dark navbar
+
+- video 9
+  - exrecise 
+
+- video 10
+  - new component abiut
+  - how to enable dark mode
+
+- video 11
+  - nothing much
+
+- video 11
+  - improving dark mode
+  
+- video 12
+  - adding alert msgs
+
+- video 13
+  - favicon added
+

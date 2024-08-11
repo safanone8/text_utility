@@ -8,7 +8,7 @@ export default function Navbar(props) {
       <nav className={`navbar navbar-expand-lg navbar-${props.mode} bg-${props.mode}`}>
         <div className="container-fluid">
           {/* prop is used in next line  */}
-          <Link className="navbar-brand" to="/#lessons">
+          <Link className="navbar-brand" to="/">
             {props.title}
           </Link>
          
@@ -30,7 +30,7 @@ export default function Navbar(props) {
                 <Link
                   className="nav-link"
                   aria-current="page"
-                  to="/#lessons" >
+                  to="/text_utility" >
                   Home
                 </Link>
               

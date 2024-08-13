@@ -41,12 +41,12 @@ function App() {
           mode={mode}
           toggleMode={toggleMode}
         />
-         <TextForm
+        <Alert alert={alert} />
+            <TextForm
                 showAlert={showAlert}
                 heading="Enter the text to analyze"
                 mode={mode}
               />
-        <Alert alert={alert} />
         <div className="container" my-3>
           <Switch>
             <Route exact path="/about">
